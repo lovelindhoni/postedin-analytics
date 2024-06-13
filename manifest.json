@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "PostedIn Analytics",
+  "version": "1.0.0",
+  "description": "A simple chrome extension that shows useful analytics for a linkedin post",
+  "background": {
+    "service_worker": "src/background",
+    "type": "module"
+  },
+  "action": { "default_popup": "index.html", "default_icon": { "180": "src/assets/icon.png" } },
+  "icons": { "180": "src/assets/icon.png" },
+  "permissions": ["activeTab", "tabs", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content"]
+    }
+  ]
+}
