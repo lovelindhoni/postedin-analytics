@@ -1,7 +1,7 @@
 # Postedin Analytics Chrome Extension
 
 > [!NOTE]
-> Analytics may appear broken due to LinkedIn's client-side routing. Please refresh the tab to re-render the analytics
+> Analytics may appear broken due to LinkedIn's client-side routing. Please refresh the tab to re-render the analytics. Make sure you **signed into linkedin** and posts should should be opened in a seperate tab, (https://linkedin.com/posts/, https://linkedin.com/feed/update). 
 
 ## Overview
 
@@ -60,12 +60,6 @@ pnpm install
 
 ```bash
 pnpm run build
-```
-
-5. For Development:
-
-```bash
-pnpm run dev
 ```
 
 5. Open Chrome and go to `chrome://extensions/`.
