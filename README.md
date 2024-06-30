@@ -80,6 +80,9 @@ pnpm run build
 
 5. The extension will fetch and display analytics for the post, including user details, post description, reactions breakdown, comments, reposts, mentions, and hashtags.
 
+> [!NOTE]
+> This project has been pinned at osspins :)
+
 ## License
 
 MIT
