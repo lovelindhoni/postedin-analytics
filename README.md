@@ -23,10 +23,6 @@ Postedin Analytics is a Chrome extension designed to provide detailed analytics 
 
 Postedin works by injecting content scripts into the host LinkedIn page, and querying and preprocessing data before passing it as a message back to the extension.
 
-### Why was LinkedIn's API not used?
-
-I didn't used the LinkedIn's API because it would result in rate limit exceedances, and, moreover, using the API would be very straightforward, like creating a web app, and I thought it would not reflect my abilities of creating a Chrome extension.
-
 ## Tech Stack
 
 - **React.js**: Utilized for building the frontend UI of the Chrome extension.
@@ -79,9 +75,6 @@ pnpm run build
 4. If analytics looks broken or outdated, then please refresh the tab.
 
 5. The extension will fetch and display analytics for the post, including user details, post description, reactions breakdown, comments, reposts, mentions, and hashtags.
-
-> [!NOTE]
-> This project has been pinned at osspins :)
 
 ## License
 
